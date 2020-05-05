@@ -70,7 +70,7 @@ $ git pull-request
 ```
 [1]:https://github.com/NekoDerek/MoonlightBot#requirements
 [2]:https://github.com/NekoDerek/MoonlightBot#starting
-[3]:https://github.com/NekoDerek/MoonlightBot#linux-users
+[3]:https://github.com/NekoDerek/MoonlightBot#linuxmacos-users
 [4]:https://github.com/NekoDerek/MoonlightBot#windows-users
 [5]:https://github.com/NekoDerek/MoonlightBot#docker-users
 [6]:https://github.com/NekoDerek/MoonlightBot#contribution
