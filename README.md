@@ -41,7 +41,7 @@ Perfect! Now the bot running!
 * First of all you need to set ENV _(environment variables)_ with **_group token and bot owner id_**: <br>
     * Click Right mouse button on My PC icon
     * Click on additional system parameters 
-    * Click on Environmental Variables and set them. You need to set `OWNER_ID` and `TOKEN` variables
+    * Click on Environmental Variables and set them. You need to set `OWNER_ID`, `GROUP_ID` and `TOKEN` variables
     * To check for environment variables enter in cmd.exe `set`, then find your variables
 * Open directory with Bot and find bot.py file. Run it.
 Perfect! Now the bot running!
