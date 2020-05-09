@@ -1,5 +1,6 @@
 try:
     # Import packages
+    import config
     import json
     import sys
     import os
@@ -71,7 +72,7 @@ try:
                                 self.send(peer_id=peer_id, message=ans)
 
                             # Kick chat user
-                            elif msg1[0].lower() in ['кик'] and user_id in "admins" == [os.environ['OWNER_ID']]:
+                            elif msg1[0].lower() in ['кик'] and user_id in "admins" == [config.OWNER_ID]:
                                 time.sleep(1)
                                 for i in msg2.split():
                                     self.kick(chat_id=peer_id - 2000000000, member_id=i)
@@ -86,7 +87,7 @@ try:
 
 
     # Api 5.50(callback) и 5.101(longpool)
-    moonlight = Server(os.environ['TOKEN'], os.environ['GROUP_ID'], "moonlight")
+    moonlight = Server(config.TOKEN, config.GROUP_ID, "moonlight")
     moonlight.start()
 
 except:
