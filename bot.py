@@ -46,7 +46,8 @@ try:
                             roles = json.load(f)
                         if event.object.action is not None and (event.object.action['type'] == 'chat_kick_user'):
                             self.kick(chat_id=event.object.peer_id - 2000000000, member_id=event.object.from_id)
-                        elif event.object.text.lower().startswith("/") or event.object.text.lower().startswith("!"):
+                        elif event.object.text.lower().startswith("/") or event.object.text.lower().startswith("!") \
+                                or event.object.text.lower().startswith:
                             msg, user_id, peer_id = event.object.text[1:], event.object.from_id, event.object.peer_id
                             msg1 = msg.split()
                             msg2 = ' '.join(msg1[1:])
