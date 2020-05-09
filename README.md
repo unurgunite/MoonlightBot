@@ -25,11 +25,11 @@ pip3 install vk_api
 ### Linux/MacOS users
 * First of all you need to set ENV _(environment variables)_ with **_group token and bot owner id_**: <br>
  ```bash
- cd MoonlightBot; echo "GROUP_ID=your_group_id" >> config.py && echo "OWNER_ID=owner_id" >> config.py && echo "TOKEN=your_group_token" >> config.py
+ cd MoonlightBot; echo "GROUP_ID=your_group_id" >> config.py && echo "OWNER_ID=owner_id" >> config.py && echo "TOKEN=\"your_group_token\"" >> config.py
  ```
  Example: <br>
  ```bash
- cd MoonlightBot; echo "GROUP_ID=135178620" >> config.py && echo "OWNER_ID=233676147" >> config.py && echo "TOKEN=dfbipvsvbuir9u34938420fehwf" >> config.py
+ cd MoonlightBot; echo "GROUP_ID=135178620" >> config.py && echo "OWNER_ID=233676147" >> config.py && echo "TOKEN="dfbipvsvbuir9u34938420fehwf\"" >> config.py
  ```
 * Open directory with Bot and type within Terminal: <br>
  ```bash
