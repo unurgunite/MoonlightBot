@@ -25,11 +25,11 @@ pip3 install vk_api
 ### Linux/MacOS users
 * First of all you need to set ENV _(environment variables)_ with **_group token and bot owner id_**: <br>
  ```bash
- echo "GROUP_ID=your_group_id" >> ~/.bashrc && echo "OWNER_ID=owner_id" >> ~/.bashrc && echo "TOKEN=your_group_token" >> ~/.bashrc && source ~/.bashrc
+ echo "GROUP_ID=your_group_id" >> ~/.profile && echo "OWNER_ID=owner_id" >> ~/.profile && echo "TOKEN=your_group_token" >> ~/.profile && source ~/.profile
  ```
  Example: <br>
  ```bash
- echo "GROUP_ID=135178620" >> ~/.bashrc && echo "OWNER_ID=233676147" >> ~/.bashrc && echo "TOKEN=dfbipvsvbuir9u34938420fehwf" >> ~/.bashrc && source ~/.bashrc
+ echo "GROUP_ID=135178620" >> ~/.profile && echo "OWNER_ID=233676147" >> ~/.profile && echo "TOKEN=dfbipvsvbuir9u34938420fehwf" >> ~/.profile && source ~/.profile
  ```
 * Open directory with Bot and type within Terminal: <br>
  ```bash
@@ -61,7 +61,7 @@ Example: <br>
 **~~_Notice: Admin lvl1 role higher than Admin lvl2 role (in next patch this function will be added)_~~**
 
 ## Contribution
-Contribute to the project development always welcome! You will need to create new branch and then push changes to the repository.<br>
+Contribute to the project development always welcome! You will need to fork this project then create new branch and push changes to the repository.<br>
 ```bash
 $ git branch new-feature
 $ edit your files
