@@ -35,7 +35,7 @@ pip3 install vk_api
  ```bash
  cd MoonlightBot; python3 bot.py
  ```
-Perfect! Now the bot running!
+Perfect! Now the bot running! **Don't forget to enable LongpoolServer in your group settings!**
 
 ### Windows users
 * First of all you need to set ENV _(environment variables)_ with **_group token and bot owner id_**: <br>
@@ -44,7 +44,7 @@ Perfect! Now the bot running!
     * Click on Environmental Variables and set them. You need to set `OWNER_ID` and `TOKEN` variables
     * To check for environment variables enter in cmd.exe `set`, then find your variables
 * Open directory with Bot and find bot.py file. Run it.
-Perfect! Now the bot running!
+Perfect! Now the bot running! **Don't forget to enable LongpoolServer in your group settings!**
 
 ### ~~Docker users~~
 * ~~In next patch~~
