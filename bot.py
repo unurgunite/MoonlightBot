@@ -71,7 +71,7 @@ try:
                                 self.send(peer_id=peer_id, message=ans)
 
                             # Kick chat user
-                            elif msg1[0].lower() in ['кик'] and user_id in "admins" == [config.OWNER_ID]:
+                            elif msg1[0].lower() in ['кик'] and user_id == [config.OWNER_ID]:
                                 time.sleep(1)
                                 for i in msg2.split():
                                     self.kick(chat_id=peer_id - 2000000000, member_id=i)
