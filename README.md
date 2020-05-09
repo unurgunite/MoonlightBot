@@ -29,7 +29,7 @@ pip3 install vk_api
  ```
  Example: <br>
  ```bash
- cd MoonlightBot; echo "GROUP_ID=135178620" >> config.py && echo "OWNER_ID=233676147" >> config.py && echo "TOKEN="dfbipvsvbuir9u34938420fehwf\"" >> config.py
+ cd MoonlightBot; echo "GROUP_ID=135178620" >> config.py && echo "OWNER_ID=233676147" >> config.py && echo "TOKEN=\"dfbipvsvbuir9u34938420fehwf\"" >> config.py
  ```
 * Open directory with Bot and type within Terminal: <br>
  ```bash
