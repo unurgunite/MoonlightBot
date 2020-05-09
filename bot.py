@@ -11,7 +11,6 @@ try:
     import vk_api.vk_api
     from vk_api.bot_longpoll import VkBotLongPoll
 
-
     # Server
     class Server:
 
