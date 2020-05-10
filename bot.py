@@ -1,14 +1,16 @@
 # Import packages
-import config
 import json
-import sys
 import os
 import random
+import sys
 import time
 
 import vk_api
 import vk_api.vk_api
 from vk_api.bot_longpoll import VkBotLongPoll
+
+import config
+
 
 # Server
 class Server:
@@ -21,7 +23,7 @@ class Server:
 
     def send(self, peer_id, message=None, attachment=None):
         self.vk_api.messages.send(peer_id=peer_id, message=message, attachment=attachment,
-                                    random_id=random.randint(-2135425, 2135425))
+                                  random_id=random.randint(-2135425, 2135425))
 
     def kick(self, chat_id, member_id):
         self.vk_api.messages.removeChatUser(chat_id=chat_id, member_id=member_id)
@@ -84,6 +86,7 @@ class Server:
                     """
             except Exception as E:
                 print(E)
+
 
 try:
     # Api 5.50(callback) и 5.101(longpool)
