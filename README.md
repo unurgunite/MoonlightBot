@@ -54,8 +54,8 @@ Perfect! Now the bot running! **Don't forget to enable LongpoolServer in your gr
 Example: <br>
 ```json5
 {
- "Admin lvl2": [233676147],
- "Admin lvl1": [233676147]
+ "Admin lvl2": [1234567],
+ "Admin lvl1": [1234567]
 }
 ```
 **~~_Notice: Admin lvl1 role higher than Admin lvl2 role (in next patch this function will be added)_~~**
