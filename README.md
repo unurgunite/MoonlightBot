@@ -71,6 +71,6 @@ $ git pull-request
 [1]:https://github.com/unurgunite/MoonlightBot#requirements
 [2]:https://github.com/unurgunite/MoonlightBot#starting
 [3]:https://github.com/unurgunite/MoonlightBot#linuxmacos-users
-[4]:https://github.com/NekoDerek/MoonlightBot#windows-users
-[5]:https://github.com/NekoDerek/MoonlightBot#docker-users
-[6]:https://github.com/NekoDerek/MoonlightBot#contribution
+[4]:https://github.com/unurgunite/MoonlightBot#windows-users
+[5]:https://github.com/unurgunite/MoonlightBot#docker-users
+[6]:https://github.com/unurgunite/MoonlightBot#contribution
